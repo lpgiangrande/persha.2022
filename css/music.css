@@ -1,0 +1,31 @@
+/*#1D2726
+#44656C*/
+#music{
+    margin-bottom: 30vh; /* same height as footer, so that content doesn't appear beneath it */
+}
+
+#news section{
+    border: 2px solid white;
+    padding: 3em;
+}
+#news{
+    height: 500px;
+}
+
+.spotify iframe{
+    border-radius:12px;
+}
+
+.more-youtube{
+    font-size: 14px;
+}
+
+body{
+    background-image: url("images/bg-img-web.jpg");
+    background-color: black;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 100vh;
+}

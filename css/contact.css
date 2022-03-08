@@ -1,0 +1,49 @@
+h2, h3{
+    color: black;
+    font-weight: 600!important;
+}
+h2{
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+p{
+    font-size:1.2em;
+    font-weight: 600;
+}
+
+section{
+    min-height: 30vh;
+    min-width: 70vw;
+    position: absolute;
+    top: 30vh;
+    background-color: white;
+    opacity: 0.7;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+section a{
+    color: black;
+}
+section a:hover{
+    color: black;
+    opacity:0.8;
+}
+
+#contact{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+body{
+    background-image: url("images/contact-web.jpg");
+    background-color: black;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 100vh;
+}

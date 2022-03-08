@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Persha - Music</title>
+    <!--Bootstrap 5-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!--FONTAWESOME CDN-->
+    <script src="https://kit.fontawesome.com/5d934be3de.js" crossorigin="anonymous"></script>
+    <!-- CSS -->
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+</head>
+<body>
+    <header>
+        <!-- NAVBAR -->
+        <nav class="navbar navbar-expand-md navbar-dark">
+            <div class="container-fluid">
+                <div class="collapse navbar-collapse element1" id="navbarTogglerDemo02">
+                    <ul class="navbar-nav ms-auto mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link text-white" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="music.html">Music</a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- LOGO -->
+                <a class="navbar-brand element2" href="index.html">PERSHA</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon text-white"><i class="fab fa-solid fa-bars test"></i></span>
+                </button>
+                
+                <div class="collapse navbar-collapse element3" id="navbarTogglerDemo02">
+                    <ul class="navbar-nav me-auto mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="bio.html">Bio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main id="music">
+        <div class="container pt-5 pb-5" id="news">
+            <!--NEW SINGLE-->
+            <section>
+                <h1 class="text-white text-center">NEW SINGLE "HOOKED"</h1>
+                <h2 class="text-white text-center">(INSERER VIDEOS OU LIEN D'ECOUTE CI-DESSOUS)</h2>
+            </section>
+        </div>
+        <!-- Administrateurs réseau : vous devez ajouter youtube.com à la liste blanche du pare-feu -->
+        
+        <!-- CONTAINER SPOTIFY -->
+        <div class="container spotify mt-5 mb-5 text-center">
+            <h1 class="text-white text-center mb-5">PERSHA ON SPOTIFY</h1>
+            <iframe src="https://open.spotify.com/embed/artist/1IsgfKVCqukd5GOJftZ19F?utm_source=generator" 
+            width="100%" height="380" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture">
+            </iframe>
+        </div>
+        <br/>
+        <!-- CONTAINER YOUTUBE VIDEOS -->
+        <div class="container videos mt-5 mb-5" id="youtube">
+            <h1 class="text-white text-center mb-5">PERSHA ON YOUTUBE</h1>
+            <div class="row g-3">
+                <div class="col-md-4 text-center"><!-- Release the pressure -->
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/pWfJ0snLvig" title="Persha - Release The Pressure"
+                    frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                    allowfullscreen></iframe>
+                </div>
+                <div class="col-md-4 text-center"> <!-- On and on -->
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/3Y76h0n4dGw" title="Persha - On And On"
+                    frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                    allowfullscreen></iframe>
+                </div>
+                <div class="col-md-4 text-center"> <!-- Fallin' over -->
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/27dL-LszbOk" title="Persha - Fallin' Over" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                    allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="container mt-5" id="socials">
+            <a href="https://www.instagram.com/pershamusic/?hl=frgram" target="_blank" class="social-icons text-white"><i class="fab fa-brands fa-instagram"></i></a>
+            <a href="https://www.facebook.com/pershamusic" target="_blank" class="social-icons text-white"><i class="fab fa-brands fa-facebook"></i></a>
+            <a href="https://twitter.com/pershanoush" target="_blank" class="social-icons text-white"><i class="fab fa-brands fa-twitter"></i></a>
+            <a href="https://www.youtube.com/channel/UCJVJ54MUjJtYfQlE0QXaRUg" target="_blank" class="social-icons text-white"><i class="fab fa-brands fa-youtube"></i></a>
+            <a href="https://open.spotify.com/artist/1IsgfKVCqukd5GOJftZ19F?si=pUUYuSsQTaWKuL8TCU3kkQ" target="_blank" class="social-icons text-white"><i class="fab fa-brands fa-spotify"></i></a>
+            <a href="contact.html" class="social-icons text-white"><i class="fab fas fa-envelope"></i></a>
+        </div>
+        <div class="container mt-4 mb-5 text-center" id="footer-text">
+            <span>&copy; 2022</span>
+            <a href="https://mangata-music.com">Mangata Music</a>
+            <span>All rights reserved.</span>
+        </div>
+    </footer>
+    <!-- Bootstrap JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
