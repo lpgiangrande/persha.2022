@@ -107,7 +107,7 @@ footer{
     align-items: center;
 }
 
-.fab {
+#socials i{
     font-size: 30px;
     margin: 0 15px 0 15px;
 }
