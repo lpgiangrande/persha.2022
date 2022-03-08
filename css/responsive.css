@@ -29,10 +29,17 @@
         /* footer */
         #socials i{
             font-size: 20px;
-            margin: 0 15px 0 15px;
+
         }
         footer{
-            min-height: 10vh;
+            max-height: 15vh;
+            padding-top: 2em;         
+        }
+        #footer-text{
+            padding: 0.5em;
+        }
+        #footer-text a, span{
+            font-size: 10px;
         }
 
         /* bio */
@@ -43,6 +50,13 @@
         article{
             margin-bottom: 30vh;
             margin-top: 20vh;
+        }
+        /* contact */
+        #contact h2{
+            font-size: 1.2em;
+        }
+        #contact h3{
+            font-size: 1.2em;
         }
     }
 

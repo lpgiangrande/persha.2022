@@ -99,6 +99,8 @@ footer{
     bottom:0;
     width: 100%;
     /*border: 1px solid red;*/
+    padding-top: 2.5em;
+    padding-bottom: 2em;
 }
 
 #socials {
@@ -124,3 +126,6 @@ footer a:hover{
     opacity: 0.8;
 }
 
+#footer-text{
+    padding-top: 1.5em;
+}
