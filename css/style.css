@@ -27,8 +27,11 @@ p, span{
     font-family: 'Urbanist', sans-serif;
 }
 /* HEADER */
-.nav{
+nav{
     justify-content: center;
+    position: absolute;
+    top: 0;
+    z-index: 999;
 }
 
 .navbar-brand{
