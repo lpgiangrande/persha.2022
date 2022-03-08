@@ -10,11 +10,12 @@
     <script src="https://kit.fontawesome.com/5d934be3de.js" crossorigin="anonymous"></script>
     <!-- CSS -->
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/music.css">
     <link rel="stylesheet" href="./css/responsive.css">
 </head>
 <body>
     <header>
-        <!-- NAVBAR -->
+       <!-- NAVBAR -->
         <nav class="navbar navbar-expand-md navbar-dark">
             <div class="container-fluid">
                 <div class="collapse navbar-collapse element1" id="navbarTogglerDemo02">
@@ -46,44 +47,68 @@
             </div>
         </nav>
     </header>
-    <main id="music">
-        <div class="container pt-5 pb-5" id="news">
-            <!--NEW SINGLE-->
-            <section>
-                <h1 class="text-white text-center">NEW SINGLE "HOOKED"</h1>
-                <h2 class="text-white text-center">(INSERER VIDEOS OU LIEN D'ECOUTE CI-DESSOUS)</h2>
-            </section>
-        </div>
-        <!-- Administrateurs réseau : vous devez ajouter youtube.com à la liste blanche du pare-feu -->
-        
-        <!-- CONTAINER SPOTIFY -->
-        <div class="container spotify mt-5 mb-5 text-center">
-            <h1 class="text-white text-center mb-5">PERSHA ON SPOTIFY</h1>
-            <iframe src="https://open.spotify.com/embed/artist/1IsgfKVCqukd5GOJftZ19F?utm_source=generator" 
-            width="100%" height="380" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture">
-            </iframe>
-        </div>
-        <br/>
-        <!-- CONTAINER YOUTUBE VIDEOS -->
-        <div class="container videos mt-5 mb-5" id="youtube">
-            <h1 class="text-white text-center mb-5">PERSHA ON YOUTUBE</h1>
-            <div class="row g-3">
-                <div class="col-md-4 text-center"><!-- Release the pressure -->
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/pWfJ0snLvig" title="Persha - Release The Pressure"
-                    frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-                    allowfullscreen></iframe>
+    <main>
+        <div class="container wrapper">
+            <div class="container pt-5 pb-5">
+                <!--NEW SINGLE-->
+                <section  id="new-single">
+                    <h1 class="text-white text-center">NEW SINGLE "HOOKED"</h1>
+                    <h2 class="text-white text-center">(INSERER VIDEOS OU LIEN D'ECOUTE CI-DESSOUS)</h2>
+                </section>
+            </div>
+            <!-- Administrateurs réseau : vous devez ajouter youtube.com à la liste blanche du pare-feu -->
+            
+            <!-- CONTAINER SPOTIFY -->
+            <div class="container spotify mt-5 mb-5 text-center">
+                <h1 class="text-white text-center mb-5">PERSHA ON SPOTIFY</h1>
+                <iframe src="https://open.spotify.com/embed/artist/1IsgfKVCqukd5GOJftZ19F?utm_source=generator" 
+                width="100%" height="380" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture">
+                </iframe>
+            </div>
+            <br/>
+            <!-- CONTAINER YOUTUBE VIDEOS -->
+            <div class="container videos mt-5 mb-5" id="youtube">
+                <h1 class="text-white text-center mb-5">PERSHA ON YOUTUBE</h1>
+                <div class="row g-3">
+                    <div class="col-md-4 text-center"><!-- Release the pressure -->
+                        <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/pWfJ0snLvig" title="Persha - Release The Pressure"
+                        frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                        allowfullscreen>
+                        </iframe>
+                    </div>
+                    <div class="col-md-4 text-center"> <!-- On and on -->
+                        <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/3Y76h0n4dGw" title="Persha - On And On"
+                        frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                        allowfullscreen>
+                        </iframe>
+                    </div>
+                    <div class="col-md-4 text-center"> <!-- Fallin' over -->
+                        <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/27dL-LszbOk" title="Persha - Fallin' Over" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                        allowfullscreen>
+                        </iframe>
+                    </div>
                 </div>
-                <div class="col-md-4 text-center"> <!-- On and on -->
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/3Y76h0n4dGw" title="Persha - On And On"
-                    frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-                    allowfullscreen></iframe>
-                </div>
-                <div class="col-md-4 text-center"> <!-- Fallin' over -->
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/27dL-LszbOk" title="Persha - Fallin' Over" 
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-                    allowfullscreen></iframe>
+                <h3 class="text-white text-center mt-5 mb-5">LIVE</h1>
+                <div class="row g-3">
+                    <div class="col-md-4 text-center"><!-- Stupid girl -->
+                        <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/LScFlVAcXHU" title="YouTube video player" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                        </iframe>
+                    </div>
+                    <div class="col-md-4 text-center"> <!-- Home to me-->
+                        <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/VBrCfl4V_ZA" title="YouTube video player"
+                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                         </iframe>
+                    </div>
+                    <div class="col-md-4 text-center"> <!-- Fallin' over -->
+                        <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/qiwtrpOZDuQ" title="YouTube video player" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                        </iframe>
+                    </div>
                 </div>
             </div>
+            <!---->
         </div>
     </main>
     <footer>

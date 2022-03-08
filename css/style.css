@@ -17,6 +17,7 @@ body{
     background-attachment: fixed;
     min-height: 100vh;
     font-size: 16px;
+    position: relative;
 }
 
 h1, h2, h3, li{
@@ -25,8 +26,6 @@ h1, h2, h3, li{
 p, span{
     font-family: 'Urbanist', sans-serif;
 }
-
-
 /* HEADER */
 .nav{
     justify-content: center;
@@ -34,14 +33,13 @@ p, span{
 
 .navbar-brand{
     text-transform: uppercase;
-    font-size: 3em!important;
+    font-size: 3em;
     color: white;
     letter-spacing: 20px;
     font-family: 'Jost', sans-serif;
     font-weight: 600;
-    /* 2e nav 
-    margin-right: 0rem!important;
-    margin-left: 1rem!important;*/
+    margin-right: 0rem;
+    margin-left: 1rem;
 }
 
 li{
@@ -80,7 +78,10 @@ p .date{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 800px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 main {

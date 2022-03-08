@@ -12,16 +12,19 @@ p{
 }
 
 section{
-    min-height: 30vh;
-    min-width: 70vw;
-    position: absolute;
-    top: 30vh;
+    padding: 2em;
+    min-width: 60vw;
     background-color: white;
     opacity: 0.7;
+
     display: flex;
     align-items: center;
     flex-direction: column;
-    justify-content: center;
+
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -40%);
 }
 
 section a{
@@ -32,18 +35,6 @@ section a:hover{
     opacity:0.8;
 }
 
-#contact{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
 body{
     background-image: url("images/contact-web.jpg");
-    background-color: black;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed;
-    min-height: 100vh;
 }

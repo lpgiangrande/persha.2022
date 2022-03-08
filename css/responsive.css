@@ -1,4 +1,5 @@
 @media only screen and (min-width : 375px) and (max-width : 768px){
+        /* nav */
         .element1{
             order: 2;
         }
@@ -15,6 +16,10 @@
             width: 3em;
             height: 3em;
         }
+        .navbar-brand{
+            font-size: 2em;
+        }
+        /* footer */
         .fab {
             font-size: 20px;
             margin: 0 15px 0 15px;
@@ -22,4 +27,27 @@
         footer{
             min-height: 10vh;
         }
+
+        /* bio */
+        article p{
+            line-height: 25px;
+            font-size: 0.8em;
+        }
+        article{
+            margin-bottom: 30vh;
+            margin-top: 20vh;
+        }
+
+        /* contact */
+
     }
+
+
+    @media only screen and (min-width : 375px) and (max-width : 575px){
+    /* nav page bio */
+        .navbar-collapse{
+            background-color: black; 
+        }
+    }
+
+     
