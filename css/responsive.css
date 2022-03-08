@@ -58,6 +58,9 @@
         #contact h3{
             font-size: 1.2em;
         }
+        #contact section{
+            width: 80vw;
+        }
     }
 
 
