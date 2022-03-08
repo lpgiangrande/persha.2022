@@ -37,17 +37,9 @@
             margin-bottom: 30vh;
             margin-top: 20vh;
         }
-
-        /* contact */
-
     }
 
 
-    @media only screen and (min-width : 375px) and (max-width : 575px){
-    /* nav page bio */
-        .navbar-collapse{
-            background-color: black; 
-        }
-    }
+
 
      
