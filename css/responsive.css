@@ -1,4 +1,4 @@
-@media only screen and (min-width : 320px) and (max-width : 768px){
+@media only screen and (min-width : 320px) and (max-width : 992px){
         /* nav */
         .element1{
             order: 2;
@@ -19,8 +19,11 @@
         .navbar-brand{
             font-size: 2em;
         }
-        .navbar-collapse{
+        nav{
             background-color: black; 
+        }
+        .container-fluid{
+            padding: 0;
         }
         /* main index */
         #news p{
@@ -32,11 +35,10 @@
 
         }
         footer{
-            max-height: 15vh;
-            padding-top: 2em;         
+            max-height: 13vh;                   
         }
         #footer-text{
-            padding: 0.5em;
+            margin-top: 0.5em;
         }
         #footer-text a, span{
             font-size: 10px;

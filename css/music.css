@@ -1,19 +1,18 @@
-.wrapper{
-    margin-bottom: 30vh; /* same height as footer, so that content doesn't appear beneath it */
+body{
+    background-image: url("images/music-web.jpg");
 }
 
 #new-single{
+    height: 200px;
     border: 2px solid white;
     padding: 3em;
-}
-#new-single{
-    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .spotify iframe{
     border-radius:12px;
 }
 
-body{
-    background-image: url("images/bg-img-web.jpg");
-}
+
