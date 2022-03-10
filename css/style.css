@@ -125,3 +125,10 @@ footer a:hover{
 #footer-text{
     margin-top: 1em;
 }
+/* page mentions légales */
+#mentions-contenu{
+    background-color: white;
+    padding: 2em;
+    margin: 50px auto 50px;
+    margin-bottom: 40vh;
+}
