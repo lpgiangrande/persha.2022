@@ -42,6 +42,10 @@
         #footer-text a, span{
             font-size: 10px;
         }
+        /* music */
+        .spotify iframe{
+            width: 100%!important;
+        }
         /* bio */
         article p{
             line-height: 25px;
