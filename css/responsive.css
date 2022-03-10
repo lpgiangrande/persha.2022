@@ -30,6 +30,9 @@
             font-size: 2em;
         }
         /* footer */
+        #socials{
+            margin-top: 10px;
+        }
         #socials i{
             font-size: 20px;
         }
@@ -40,7 +43,7 @@
             margin-top: 0.5em;
         }
         #footer-text a, span{
-            font-size: 10px;
+            font-size: 9px;
         }
         /* music */
         .spotify iframe{
