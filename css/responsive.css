@@ -37,7 +37,8 @@
             font-size: 20px;
         }
         footer{
-            min-height: 15vh;                   
+            min-height: 15vh; 
+            line-height: 1em;                  
         }
         #footer-text{
             margin-top: 0.5em;
