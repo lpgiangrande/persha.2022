@@ -9,7 +9,7 @@ body{
     /*background-color: black;*/
     padding: 2em;
 }
-.youtube_player{
+#youtube iframe{
     width: 560px;
     height: 315px;
 }
