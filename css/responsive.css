@@ -32,10 +32,9 @@
         /* footer */
         #socials i{
             font-size: 20px;
-
         }
         footer{
-            max-height: 13vh;                   
+            min-height: 15vh;                   
         }
         #footer-text{
             margin-top: 0.5em;
@@ -43,7 +42,6 @@
         #footer-text a, span{
             font-size: 10px;
         }
-
         /* bio */
         article p{
             line-height: 25px;

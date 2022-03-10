@@ -1,14 +1,18 @@
 body{
     background-image: url("images/videos-web.jpg");
 }
-
-
 /* same or > height as footer, so that content doesn't appear under it */
 .wrapper-video-content{
     padding-bottom: 20vh;
 }
-
 .videos{
-    background-color: black;
+    /*background-color: black;*/
     padding: 2em;
+}
+#youtube iframe{
+    width: 560px;
+    height: 315px;
+}
+.row{
+    --bs-gutter-x: 0rem;
 }

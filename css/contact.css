@@ -10,7 +10,6 @@ p{
     font-size:1.2em;
     font-weight: 600;
 }
-
 section{
     padding: 2em;
     width: 50vw;
@@ -20,21 +19,19 @@ section{
     display: flex;
     align-items: center;
     flex-direction: column;
-
+    /* Centrage parfait dans body */
     position: absolute;
-    top: 40%;
+    top: 50%;
     left: 50%;
-    transform: translate(-50%, -40%);
+    transform: translate(-50%, -50%);
 }
-
 section a{
     color: black;
 }
 section a:hover{
     color: black;
-    opacity:0.8;
+    opacity: 0.8;
 }
-
 body{
     background-image: url("images/contact-web.jpg");
 }

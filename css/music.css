@@ -1,18 +1,21 @@
 body{
     background-image: url("images/music-web.jpg");
 }
-
 #new-single{
     height: 200px;
-    border: 2px solid white;
-    padding: 3em;
+    /*border: 2px solid white;*/
     display: flex;
     justify-content: center;
     align-items: center;
 }
-
-.spotify iframe{
-    border-radius:12px;
+#new-single h1{
+    background-color: white;
+    opacity: 0.7;
+    padding: 2em;
 }
-
-
+.spotify iframe{
+    border-radius: 12px;
+}
+.wrapper-music{
+    padding-bottom: 20vh;
+}
