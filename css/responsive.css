@@ -51,11 +51,11 @@
             width: 100%!important;
         }
         /* bio */
-        article p{
+        #bio article p{
             line-height: 25px;
             font-size: 0.8em;
         }
-        article{
+        #bio article{
             margin-bottom: 30vh;
             margin-top: 20vh;
         }
