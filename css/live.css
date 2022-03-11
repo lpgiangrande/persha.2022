@@ -1,6 +1,11 @@
 body{
     background-image: url("images/live-web.jpg");
 }
+@media only screen and (min-width : 320px) and (max-width : 992px){
+    body{
+        background-image: url("images/live-mob.jpg");
+    }
+}
 #live-date{
     min-height: 80vh;
     display: flex;

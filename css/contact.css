@@ -1,3 +1,6 @@
+body{
+    background-image: url("images/contact-web.jpg");
+}
 h2, h3{
     color: black;
     font-weight: 600!important;
@@ -33,7 +36,4 @@ section a{
 section a:hover{
     color: black;
     opacity: 0.8;
-}
-body{
-    background-image: url("images/contact-web.jpg");
 }
