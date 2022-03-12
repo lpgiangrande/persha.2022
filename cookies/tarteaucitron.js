@@ -1,4 +1,5 @@
 /*jslint browser: true, evil: true */
+
 var scripts = document.getElementsByTagName('script'),
     path = scripts[scripts.length - 1].src.split('?')[0],
     tarteaucitronForceCDN = (tarteaucitronForceCDN === undefined) ? '' : tarteaucitronForceCDN,
