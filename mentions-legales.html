@@ -45,6 +45,12 @@
         });
         (tarteaucitron.job = tarteaucitron.job || []).push('spotify');
         (tarteaucitron.job = tarteaucitron.job || []).push('youtube');
+        tarteaucitron.user.analyticsUa = 'UA-XXXXXXXX-X';
+        tarteaucitron.user.analyticsMore = function () { /* optionnal ga.push() */ };
+        tarteaucitron.user.analyticsUaCreate = { /* optionnal create configuration */ };
+        tarteaucitron.user.analyticsAnonymizeIp = true;
+        tarteaucitron.user.analyticsPageView = { /* optionnal pageview configuration */ };
+        tarteaucitron.user.analyticsMore = function () { /* optionnal ga.push() */ };
         (tarteaucitron.job = tarteaucitron.job || []).push('analytics');
     </script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
