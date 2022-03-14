@@ -1,6 +1,9 @@
 # Look for home.html instead of index.html as a starting file
 DirectoryIndex home.html
 
+# Empêche l'accès aux dossiers du site via l'url
+Options -indexes
+
 RewriteEngine On
 
 	## http -> https
@@ -16,5 +19,4 @@ RewriteRule ^([^\.]+)$ $1.html  [L]
 # 301 permanent redirect all .html to non .html
 RewriteCond %{THE_REQUEST} \.html
 RewriteRule ^(.*)\.html$ /$1 [R=301,L]
-
 
