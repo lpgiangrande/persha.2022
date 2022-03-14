@@ -25,15 +25,18 @@ body{
         background-image: url("images/hooked-index-mob.jpg");
     }
 }
-h1, h2, h3, li{
+h1, h2, h3, h5, li, th{
    font-family: 'Jost', sans-serif;
 }
-h1, h2, h3{
+h1, h2, h3, h5{
     font-weight: 600;
     text-transform: uppercase;
 }
-p, span{
+p, span, td{
     font-family: 'Urbanist', sans-serif;
+}
+td{
+    font-weight: 10px;
 }
 
 /* HEADER */
