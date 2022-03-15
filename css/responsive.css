@@ -25,6 +25,11 @@
         .container-fluid{
             padding: 0;
         }
+        /* burger - delete bootstrap border*/
+        .navbar-dark .navbar-toggler {
+            color: transparent;
+            border-color: transparent;
+        }
         /* main index */
         #news p{
             font-size: 2em;
