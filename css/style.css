@@ -102,7 +102,7 @@ p .date{
 /* FOOTER */
 footer{
     background-color: black;
-    height: 13vh;
+    min-height: 13vh;
     position: fixed;
     bottom:0;
     width: 100%;

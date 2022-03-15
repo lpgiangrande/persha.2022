@@ -35,9 +35,10 @@
         }
         #socials i{
             font-size: 20px;
+            margin: 0 8px 0 8px;
         }
         footer{
-            min-height: 15vh; 
+            min-height: 10vh; 
             line-height: 1em;                  
         }
         #footer-text{
@@ -56,7 +57,7 @@
             font-size: 0.8em;
         }
         #bio article{
-            margin-bottom: 30vh;
+            margin-bottom: 20vh;
             margin-top: 20vh;
         }
         /* contact */
