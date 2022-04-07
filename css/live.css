@@ -18,3 +18,8 @@ body{
     opacity: 0.7;
     padding: 1em;
 }
+
+/* Footer | except home page */
+footer {
+    background-color:black;
+}

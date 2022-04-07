@@ -21,6 +21,7 @@
         }
         nav{
             background-color: black; 
+            margin-top: 0px;
         }
         .container-fluid{
             padding: 0;
@@ -43,6 +44,7 @@
             margin: 0 8px 0 8px;
         }
         footer{
+            background-color: black;
             min-height: 10vh; 
             line-height: 1em;                  
         }

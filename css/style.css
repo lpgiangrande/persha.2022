@@ -46,6 +46,7 @@ nav{
     top: 0;
     z-index: 999;
     /*background-color: black; */
+    margin-top: 15px;
 }
 .navbar-brand{
     text-transform: uppercase;
@@ -56,6 +57,7 @@ nav{
     font-weight: 600;
     margin-right: 0rem;
     margin-left: 1rem;
+    padding: 0 0.5em 0 0.5em;
 }
 li{
     font-weight: 500;
@@ -70,6 +72,8 @@ header a:hover{
     color:white;
     opacity: 0.8;
 }
+
+/* MAIN */
 .line{
     border-top: 2px solid white;
     width: 70%;
@@ -78,8 +82,6 @@ header a:hover{
 p .date{
     font-size: 1em;
 }
-
-/* MAIN */
 #news p{
     text-transform: uppercase;
     font-size: 3em;
@@ -101,7 +103,7 @@ p .date{
 
 /* FOOTER */
 footer{
-    background-color: black;
+    /*background-color: black;*/
     min-height: 13vh;
     position: fixed;
     bottom:0;

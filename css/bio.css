@@ -30,3 +30,8 @@ article{
     left: 50%;
     transform: translate(-50%, -30%);
 }
+
+/* Footer | except home page */
+footer {
+    background-color:black;
+}

@@ -37,3 +37,9 @@ section a:hover{
     color: black;
     opacity: 0.8;
 }
+
+
+/* Footer | except home page */
+footer {
+    background-color:black;
+}
