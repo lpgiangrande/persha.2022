@@ -26,7 +26,8 @@ body{
     width: 600px;
 }
 
-#new-single iframe{
+/* Single Spotify */
+.spotify-single iframe{
     border-radius: 12px;
     height: 100px;
     height: 150px;
