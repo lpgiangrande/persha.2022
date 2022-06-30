@@ -10,7 +10,7 @@ html, html * {
     max-width:100%; 
 }
 body{
-    background-image: url("images/hooked-index-web.jpg");
+    background-image: url("images/bbsky-web.jpeg");
     background-color: black;
     background-repeat: no-repeat;
     background-position: center;
@@ -22,7 +22,7 @@ body{
 }
 @media only screen and (min-width : 320px) and (max-width : 992px){
     body{
-        background-image: url("images/hooked-index-mob.jpg");
+        background-image: url("images/bbsky-mob.jpeg");
     }
 }
 h1, h2, h3, h5, li, th{
@@ -84,8 +84,9 @@ p .date{
 }
 #news p{
     text-transform: uppercase;
-    font-size: 3em;
-    letter-spacing: 5px;    
+    font-size: 4em;
+    letter-spacing: 5px;
+    margin : 10px;    
 }
 #news{
     display: flex;
@@ -96,10 +97,20 @@ p .date{
     left: 50%;
     transform: translate(-50%, -50%);
 }
+.link-single-home{
+    text-decoration: none;
+    color : white;
+}
+.link-single-home:hover{
+    color : white;
+    opacity: 0.7;
+}
 /*
 .main-index {
     margin: 60px 0 60px 0;
 }*/
+
+
 
 /* FOOTER */
 footer{
