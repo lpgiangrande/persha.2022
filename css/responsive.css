@@ -1,84 +1,99 @@
+/* SMARTPHONE */
 @media only screen and (min-width : 320px) and (max-width : 992px){
-        /* nav */
-        .element1{
-            order: 2;
+    /* NAV */
+    .element1{
+        order: 2;
+    }
+    .element3{
+        order: 3;
+    }
+    .element2{
+        order: 0;
+    }
+    .navbar-toggler{
+        border: none;
+    }
+    .navbar-toggler-icon{
+        width: 3em;
+        height: 3em;
+    }
+    .navbar-brand{
+        font-size: 2em;
+    }
+    nav{
+        background-color: black; 
+        margin-top: 0px;
+    }
+    .container-fluid{
+        padding: 0;
+    }
+    /* burger - delete bootstrap border*/
+    .navbar-dark .navbar-toggler {
+        color: transparent;
+        border-color: transparent;
+    }
+    /* footer */
+    #socials{
+        margin-top: 10px;
+    }
+    #socials i{
+        font-size: 20px;
+        margin: 0 12px 0 12px;
+    }
+    footer{
+        background-color: black;
+        min-height: 10vh; 
+        line-height: 1em;                  
+    }
+    #footer-text{
+        margin-top: 0.5em;
+    }
+    #footer-text a, span{
+        font-size: 9px;
+    }
+    /* music */
+    .spotify iframe{
+        width: 100%!important;
+    }
+    /* bio */
+    #bio article p{
+        line-height: 25px;
+        font-size: 0.8em;
+    }
+    #bio article{
+        margin-bottom: 20vh;
+        margin-top: 20vh;
+    }
+    /* contact */
+    #contact h2{
+        font-size: 1.3em;
+    }
+    #contact h3{
+        font-size: 1.3em;
+    }
+    #contact section{
+        width: 80vw;
+    }
+}
+
+
+/* IPAD -> DESKTOP L */
+@media only screen and (min-width : 320px) and (max-width : 575px){
+        
+        /* main index */
+        #p-single-1{
+            font-size: 1.5em;
+            padding-bottom: 30px;
         }
-        .element3{
-            order: 3;
-        }
-        .element2{
-            order: 0;
-        }
-        .navbar-toggler{
-            border: none;
-        }
-        .navbar-toggler-icon{
-            width: 3em;
-            height: 3em;
-        }
-        .navbar-brand{
+        #p-single-2{
             font-size: 2em;
         }
-        nav{
-            background-color: black; 
-            margin-top: 0px;
-        }
-        .container-fluid{
-            padding: 0;
-        }
-        /* burger - delete bootstrap border*/
-        .navbar-dark .navbar-toggler {
-            color: transparent;
-            border-color: transparent;
-        }
-        /* main index */
-        #news p{
-            font-size: 3em;
-        }
-        /* footer */
-        #socials{
-            margin-top: 10px;
-        }
-        #socials i{
-            font-size: 20px;
-            margin: 0 12px 0 12px;
-        }
-        footer{
-            background-color: black;
-            min-height: 10vh; 
-            line-height: 1em;                  
-        }
-        #footer-text{
-            margin-top: 0.5em;
-        }
-        #footer-text a, span{
-            font-size: 9px;
-        }
-        /* music */
-        .spotify iframe{
-            width: 100%!important;
-        }
-        /* bio */
-        #bio article p{
-            line-height: 25px;
-            font-size: 0.8em;
-        }
-        #bio article{
-            margin-bottom: 20vh;
-            margin-top: 20vh;
-        }
-        /* contact */
-        #contact h2{
-            font-size: 1.3em;
-        }
-        #contact h3{
-            font-size: 1.3em;
-        }
-        #contact section{
-            width: 80vw;
-        }
-    }
+}
 
+
+
+
+        
 
 
 

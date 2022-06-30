@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Jost:wght@200;300;400;500;600&display=swap'); /* titles */
-@import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@200;300;400;500;600;700;800&display=swap'); /* texts */
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@200;300;400;500;600&display=swap'); /* Menu, titres */
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@200;300;400;500;600;700;800&display=swap'); /* texts, single title home page */
 
 *, ::before, ::after{
     box-sizing: border-box;
@@ -14,7 +14,7 @@ body{
     background-color: black;
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover;
+    background-size: cover; /* contain si image carrée et recadrement pas joli, mais marges */
     background-attachment: fixed;
     min-height: 100vh;
     font-size: 16px;
@@ -25,6 +25,7 @@ body{
         background-image: url("images/bbsky-mob.jpeg");
     }
 }
+
 h1, h2, h3, h5, li, th{
    font-family: 'Jost', sans-serif;
 }
@@ -75,23 +76,32 @@ header a:hover{
 
 /* MAIN */
 .line{
-    border-top: 2px solid white;
+    border-top: 1.5px solid white;
     width: 70%;
     margin: 30px auto;
 }
-p .date{
-    font-size: 1em;
+
+#p-single-1{
+    text-transform: uppercase;
+    font-size: 3em;
+    letter-spacing: 5px;
+    margin : 10px; 
+    border-bottom: 1px solid white;
+    padding-bottom: 40px;
 }
-#news p{
+#p-single-2{
     text-transform: uppercase;
     font-size: 4em;
     letter-spacing: 5px;
-    margin : 10px;    
+    margin : 20px;  
+    font-weight: 600;
 }
-#news{
+
+.new-single-box{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
     position: absolute;
     top: 50%;
     left: 50%;
