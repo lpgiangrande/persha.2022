@@ -77,24 +77,31 @@
 }
 
 
-/* IPAD -> DESKTOP L */
+
+/* smartphone */
 @media only screen and (min-width : 320px) and (max-width : 575px){
         
-        /* main index */
-        #p-single-1{
-            font-size: 1.5em;
-            padding-bottom: 30px;
-        }
-        #p-single-2{
-            font-size: 2em;
-        }
+    /* main index */
+    #p-single-1{
+        font-size: 2em;
+        padding-bottom: 30px;
+    }
+    #p-single-2{
+        font-size: 1.5em;
+    }
 }
 
-
-
-
+/* medium */
+@media only screen and (min-width : 576px) and (max-width : 1000px){
         
-
-
+    /* main index */
+    #p-single-1{
+        font-size: 3em;
+        padding-bottom: 30px;
+    }
+    #p-single-2{
+        font-size: 2em;
+    }
+}
 
      
