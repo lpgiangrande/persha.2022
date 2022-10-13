@@ -10,7 +10,7 @@ html, html * {
     max-width:100%; 
 }
 body{
-    background-image: url("images/bbsky-web.jpeg");
+    background-image: url("images/mindthewitch_desk.jpeg");
     background-color: black;
     background-repeat: no-repeat;
     background-position: center;
@@ -22,7 +22,7 @@ body{
 }
 @media only screen and (min-width : 320px) and (max-width : 992px){
     body{
-        background-image: url("images/bbsky-mob.jpeg");
+        background-image: url("images/mindthewitch_mobile.jpeg");
     }
 }
 
@@ -38,6 +38,10 @@ p, span, td{
 }
 td{
     font-weight: 10px;
+}
+#st{
+    text-transform: lowercase;
+    font-size: 0.7em;
 }
 
 /* HEADER */
@@ -80,23 +84,31 @@ header a:hover{
     width: 70%;
     margin: 30px auto;
 }
-
 #p-single-1{
     text-transform: uppercase;
-    font-size: 3em;
+    font-weight: 600;
+    font-size: 4em;
     letter-spacing: 5px;
     margin : 10px; 
     border-bottom: 1px solid white;
     padding-bottom: 40px;
+    /* zoom effect */
+    animation: zoom-in 1s ease;
 }
 #p-single-2{
     text-transform: uppercase;
-    font-size: 4em;
+    font-size: 3em;
     letter-spacing: 5px;
     margin : 20px;  
-    font-weight: 600;
 }
-
+@keyframes zoom-in {
+    0% {
+      transform: scale(0.9, 0.9);
+    }
+    100% {
+      transform: scale(1, 1);
+    }
+  }
 .new-single-box{
     display: flex;
     justify-content: center;
