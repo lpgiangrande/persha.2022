@@ -41,9 +41,3 @@ section{
     justify-content: center;
     align-items: center;
 }
-
-
-/* Footer | except home page */
-footer {
-    background-color:black;
-}

@@ -1,5 +1,5 @@
 body{
-    background-image: url("images/live_desk.jpeg");
+    background-image: url("images/live_desk3.jpeg");
 }
 @media only screen and (min-width : 320px) and (max-width : 992px){
     body{
@@ -22,7 +22,9 @@ a:hover{
 }
 #tour-dates{
     font-size: 1.7em;
+    font-weight: 600;
 }
+
 /*
 #live-date h3{
     color: black;
@@ -31,7 +33,3 @@ a:hover{
     padding: 1em;
 }*/
 
-/* Footer 
-footer {
-    background-color:black;
-}*/
