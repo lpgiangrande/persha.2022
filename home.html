@@ -3,75 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <!-- Cookies scripts JS -->
-    <script src="./cookies/tarteaucitron.js"></script>
-    <script>
-        tarteaucitron.init({
-    	  "privacyUrl": "", /* Privacy policy url A AJOUTER */
-
-    	  "hashtag": "#tarteaucitron", /* Open the panel with this hashtag */
-    	  "cookieName": "tarteaucitron", /* Cookie name */
-    
-    	  "orientation": "bottom", /* Banner position (top - bottom - middle) */
-       
-          "groupServices": false, /* Group services by category */
-                           
-    	  "showAlertSmall": false, /* Show the small banner on bottom right */
-    	  "cookieslist": false, /* Show the cookie list */
-                           
-          "closePopup": false, /* Show a close X on the banner */
-
-          "showIcon": true, /* Show cookie icon to manage cookies */
-          //"iconSrc": "", /* Optionnal: URL or base64 encoded image */
-          "iconPosition": "BottomRight", /* BottomRight, BottomLeft, TopRight and TopLeft */
-
-    	  "adblocker": false, /* Show a Warning if an adblocker is detected */
-                           
-          "DenyAllCta" : true, /* Show the deny all button */
-          "AcceptAllCta" : true, /* Show the accept all button when highPrivacy on */
-          "highPrivacy": true, /* HIGHLY RECOMMANDED Disable auto consent */
-                           
-    	  "handleBrowserDNTRequest": false, /* If Do Not Track == 1, disallow all */
-
-    	  "removeCredit": false, /* Remove credit link */
-    	  "moreInfoLink": true, /* Show more info link */
-
-          "useExternalCss": false, /* If false, the tarteaucitron.css file will be loaded */
-          "useExternalJs": false, /* If false, the tarteaucitron.js file will be loaded */
-
-    	  //"cookieDomain": ".my-multisite-domaine.fr", /* Shared cookie for multisite */
-                          
-          "readmoreLink": "", /* Change the default readmore link */
-
-          "mandatory": true, /* Show a message about mandatory cookies */
-        });
-        (tarteaucitron.job = tarteaucitron.job || []).push('spotify');
-        (tarteaucitron.job = tarteaucitron.job || []).push('youtube');
-        tarteaucitron.user.analyticsUa = 'UA-XXXXXXXX-X';
-        tarteaucitron.user.analyticsMore = function () { /* optionnal ga.push() */ };
-        tarteaucitron.user.analyticsUaCreate = { /* optionnal create configuration */ };
-        tarteaucitron.user.analyticsAnonymizeIp = true;
-        tarteaucitron.user.analyticsPageView = { /* optionnal pageview configuration */ };
-        tarteaucitron.user.analyticsMore = function () { /* optionnal ga.push() */ };
-        (tarteaucitron.job = tarteaucitron.job || []).push('analytics');
-    </script>
+    <script src="/assets/cookies/tarteaucitron.js"></script>
+    <script src="/assets/cookies/tarteaucitron-configsite.js"></script>
+    <!---->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- SEO -->
     <meta name="description" content="Singer and songwriter Persha's official website">
-    <meta name="keywords" content="Persha, singer, french singer, songwriter, composer, persha music, electro-pop music, vanessa giangrande, persha website">
+    <meta name="keywords" content="Persha, persha singer, persha songwriter, persha composer, persha music, electro music, pop music, vanessa giangrande, persha website, mangata music">
     <meta name="google-site-verification" content="-tebtZ-goehxv49XiA1vUa8T54A0bXlPfkAun7iUPrs" />
-    <link rel="canonical" href="https://www.pershamusic.com/home">
+    <link rel="canonical" href="https://www.pershamusic.com/">
     <!--Bootstrap 5-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <!--FONTAWESOME CDN-->
     <script src="https://kit.fontawesome.com/5d934be3de.js" crossorigin="anonymous"></script>
+    <!--linktree icon-->
+    <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
     <!-- CSS -->
-    <link rel="stylesheet" href="./css/style.min.css">
-    <link rel="stylesheet" href="./css/responsive.min.css">
-    <link rel="stylesheet" href="./css/homepage-bg-img-responsive.min.css">
-    <link rel="icon" type="image/x-icon" href="./css/images/favicon.png">
+    <link rel="stylesheet" href="/assets/css/style-min.css">
+    <link rel="stylesheet" href="/assets/css/responsive-min.css">
+    <link rel="stylesheet" href="/assets/css/homepage-bg-img-responsive-min.css">
+    
+    <link rel="icon" type="image/x-icon" href="/assets/images/favicon.png">
+    
     <title>Persha - Home</title>
 </head>
-<body>
+<body class="no-scrollbar">
     <header>
         <!-- NAVBAR -->
         <nav class="navbar navbar-expand-lg navbar-dark">
@@ -83,10 +39,10 @@
                             <a class="nav-link text-white" aria-current="page" href="/home.html">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-white" href="/music.html">Music</a>
+                            <a class="nav-link text-white" href="/src/music.html">Music</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-white" href="/live.html">Live</a>
+                            <a class="nav-link text-white" href="/src/live.html">Live</a>
                         </li>
                     </ul>
                 </div>
@@ -101,13 +57,13 @@
                 <div class="collapse navbar-collapse element3" id="navbarTogglerDemo02">
                     <ul class="navbar-nav me-auto mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link text-white" href="/videos.html">Videos</a>
+                            <a class="nav-link text-white" href="/src/videos.html">Videos</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-white" href="/bio.html">Bio</a>
+                            <a class="nav-link text-white" href="/src/bio.html">Bio</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-white" href="/contact.html">Contact</a>
+                            <a class="nav-link text-white" href="/src/contact.html">Contact</a>
                         </li>
                     </ul>
                 </div>
@@ -124,18 +80,19 @@
     <!-- FOOTER -->
     <footer>
         <div class="container" id="socials">
-            <a href="https://www.instagram.com/pershamusic/?hl=frgram" target="_blank" aria-label="instagram" class="social-icons text-white"><i class="fab fa-brands fa-instagram"></i></a>
+            <a href="https://www.instagram.com/pershamusic" target="_blank" aria-label="instagram" class="social-icons text-white"><i class="fab fa-brands fa-instagram"></i></a>
             <a href="https://www.facebook.com/pershamusic" target="_blank" aria-label="facebook" class="social-icons text-white"><i class="fab fa-brands fa-facebook"></i></a>
             <a href="https://twitter.com/pershamusic" target="_blank" aria-label="twitter" class="social-icons text-white"><i class="fab fa-brands fa-twitter"></i></a>
+            <a href="https://linktr.ee/Persha" target="_blank" aria-label="linktr.ee" class="social-icons text-white"><iconify-icon icon="simple-icons:linktree"></iconify-icon></a>
             <a href="https://www.youtube.com/channel/UCJVJ54MUjJtYfQlE0QXaRUg" target="_blank" aria-label="youtube" class="social-icons text-white"><i class="fab fa-brands fa-youtube"></i></a>
             <a href="https://open.spotify.com/artist/1IsgfKVCqukd5GOJftZ19F?si=pUUYuSsQTaWKuL8TCU3kkQ" target="_blank" aria-label="spotify" class="social-icons text-white"><i class="fab fa-brands fa-spotify"></i></a>
-            <a href="/contact.html" title="contact" class="social-icons text-white"><i class="fab fas fa-envelope"></i></a>
+            <a href="/src/contact.html" target="_blank" title="contact" class="social-icons text-white"><i class="fab fas fa-envelope"></i></a>
         </div>
         <div class="container text-center mb-1" id="footer-text">
             <span>&copy; <script>document.write(new Date().getFullYear());</script></span>
             <a href="https://mangata-music.com">Mangata</a>
             <span>All rights reserved.</span>
-            <span><a href="/mentions-legales.html">| Mentions légales </a></span>
+            <span><a href="/src/mentions-legales.html">| Mentions légales </a></span>
         </div>
     </footer>
     <!-- Bootstrap JS-->
