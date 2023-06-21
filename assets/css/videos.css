@@ -15,12 +15,10 @@ body{
     padding: 2em;
 }
 #youtube iframe{
-    width: 560px;
+    width: 100%;
     height: 315px;
 }
-.row{
-    --bs-gutter-x: 0rem;
-}
+
 
 /* Footer | except home page
 footer {

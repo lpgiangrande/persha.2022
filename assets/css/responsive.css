@@ -1,91 +1,84 @@
-/* LARGER DEVICES */
-@media only screen and (min-width : 992px) {
-    .no-scrollbar{
-        overflow-y: hidden;
-    }   
-}
+@media only screen and (min-width: 280px) and (max-width:992px) {
 
-/* SMALL TO MEDIUM DEVICES */
-@media only screen and (min-width : 280px) and (max-width : 992px){
-    /* NAV */
-    .element1{
-        order: 2;
+    /* Transformation de la nav et du footer (transparents à noirs, réorga nav) */
+    .element1 {
+        order:2
     }
-    .element3{
-        order: 3;
+    .element3 {
+        order: 3
     }
-    .element2{
-        order: 0;
+    .element2 {
+        order: 0
     }
-    .navbar-toggler{
-        border: none;
+    .navbar-toggler {
+        border: none
     }
-    .navbar-toggler-icon{
+    .navbar-toggler-icon {
         width: 3em;
-        height: 3em;
+        height: 3em
     }
-    .navbar-brand{
-        font-size: 0.6em;
+    .navbar-brand {
+        font-size: .6em
     }
-    nav{
-        background-color: black; 
-        margin-top: 0px;
+    nav {
+        background-color: black;
+        margin-top: 0
     }
-    .container-fluid{
-        padding: 0;
+    .container-fluid {
+        padding: 0
     }
-    /* burger - delete bootstrap border */
     .navbar-dark .navbar-toggler {
         color: transparent;
-        border-color: transparent;
+        border-color: transparent
     }
-
-    /* footer */
-    #socials{
-        margin-top: 10px;
+    #socials {
+        margin-top: 10px
     }
-    #socials i{
+    #socials i {
         font-size: 18px;
-        margin: 0 10px 0 10px;
+        margin: 0 10px 0 10px
     }
-    footer{
+    footer {
         background-color: black;
-        min-height: 10vh; 
-        line-height: 1em;                  
+        /* position: fixed; */
+        min-height: 10vh;
+        line-height: 1em;
+        opacity: 1;
+        /* transition: visibility 0s,opacity .5s */
     }
-    #footer-text{
-        margin-top: 0.5em;
+    /* hide the footer element when certain responsive conditions are met - footer.js*/
+   footer.visible {
+        display: none;
     }
-    #footer-text a, span{
-        font-size: 9px;
+    #footer-text {
+        margin-top: .5em
     }
-
-    /* OTHERS PAGES */
-
-    /* music */
-    .spotify iframe{
-        width: 100%!important;
+    #footer-text a,span {
+        font-size: 9px
     }
-    /* bio */
-    #bio article p{
+    /* others */
+    .spotify iframe {
+        width: 100%!important
+    }
+    #bio article p {
         line-height: 25px;
-        font-size: 0.8em;
+        font-size: .8em
     }
-    #bio article{
+    #bio article {
         margin-bottom: 20vh;
-        margin-top: 20vh;
+        margin-top: 20vh
     }
-    /* contact */
-    #contact h2{
-        font-size: 1.3em;
+    #contact h2 {
+        font-size: 1.3em
     }
-    #contact h3{
-        font-size: 1.3em;
+    #contact h3 {
+        font-size: 1.3em
     }
-    #contact section{
-        width: 80vw;
+    #contact section {
+        width: 80vw
     }
 }
+
 /* Mobile-specific styles */
 @media (max-width: 767px) {
     footer {
